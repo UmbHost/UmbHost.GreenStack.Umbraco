@@ -1,0 +1,3 @@
+[submodule "content/GreenStack.Umbraco"]
+	path = content/GreenStack.Umbraco
+	url = https://github.com/UmbHost/GreenStack.Umbraco.git
