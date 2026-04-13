@@ -24,7 +24,7 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Assemble pack directory
-        run: ./build.sh
+        run: chmod +x ./build.sh && ./build.sh
 
       - name: Extract version from tag
         id: version
