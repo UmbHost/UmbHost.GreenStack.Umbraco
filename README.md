@@ -1,11 +1,13 @@
-# UmbHost.GreenStack.Umbraco
+# UmbHost.GreenStack.Umbraco (v13)
 
-A dotnet new template for Umbraco 17 preconfigured for [GreenStack](https://umbhost.net/sustainable-cloud-hosting/modern-umbraco-hosting) hosting.
+A dotnet new template for Umbraco 13 (LTS) preconfigured for [GreenStack](https://umbhost.net/sustainable-cloud-hosting/modern-umbraco-hosting) hosting.
+
+> **Note:** This is the v13 LTS branch. For Umbraco 17, see the [main branch](https://github.com/UmbHost/UmbHost.GreenStack.Umbraco/tree/main).
 
 ## Installation
 
 ```bash
-dotnet new install UmbHost.GreenStack.Umbraco
+dotnet new install UmbHost.GreenStack.Umbraco::13.*
 ```
 
 ## Usage
@@ -14,7 +16,7 @@ dotnet new install UmbHost.GreenStack.Umbraco
 dotnet new greenstack-umbraco -n MyProject
 ```
 
-This creates a new Umbraco 17 project with:
+This creates a new Umbraco 13 project with:
 
 - Forwarded headers middleware for Traefik proxy
 - HTTPS runtime validator removed (SSL terminated by GreenStack)
@@ -24,11 +26,11 @@ This creates a new Umbraco 17 project with:
 
 ## Getting started
 
-Follow the [Getting Started with Umbraco 17 on GreenStack](https://umbhost.net/gb/blog/2026/01/getting-started-with-umbraco-17-on-greenstack-with-github) guide.
+Follow the [Getting Started with Umbraco 13 on GreenStack](https://umbhost.net/gb/blog/2026/03/getting-started-with-umbraco-13-on-greenstack-with-github) guide.
 
 ## Source
 
-The template content comes from [GreenStack.Umbraco](https://github.com/UmbHost/GreenStack.Umbraco), which is also available as a GitHub template repository.
+The template content comes from [GreenStack.Umbraco-v13](https://github.com/UmbHost/GreenStack.Umbraco-v13), which is also available as a GitHub template repository.
 
 ## GreenStack
 
